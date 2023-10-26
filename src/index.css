@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/*apply directives are not recommended*/
+
+@layer base {
+}
+
+@layer components {
+}
+
+@layer utilities {
+}
