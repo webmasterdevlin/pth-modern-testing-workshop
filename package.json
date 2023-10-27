@@ -6,7 +6,7 @@
     "dev": "vite",
     "preview": "vite preview",
     "backend": "json-server --watch json-server/db.json --delay=1000 --routes json-server/routes.json",
-    "start": "concurrently \"pnpm backend\" \"pnpm dev\"",
+    "start": "concurrently \"npm backend\" \"npm dev\"",
     "build": "vite build",
     "eslint": "eslint --ext js,ts,tsx ./src",
     "checkTs": "tsc --noEmit"
